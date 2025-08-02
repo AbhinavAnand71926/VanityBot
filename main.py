@@ -4,8 +4,8 @@ from discord.ext import commands, tasks
 
 # --- Load Environment Variables ---
 TOKEN = os.getenv("DISCORD_TOKEN")  # Secure token from Render environment variables
-ROLE_ID = 123456789012345678  # Replace with your actual role ID
-VANITY = "discord.gg/yourvanity"  # Replace with your vanity link
+ROLE_ID = 1396710984491728967  # Replace with your actual role ID
+VANITY = "discord.gg/silvermart"  # Replace with your vanity link
 
 # --- Intents ---
 intents = discord.Intents.default()
@@ -81,3 +81,4 @@ if __name__ == "__main__":
         print("❌ ERROR: DISCORD_TOKEN environment variable not set!")
     else:
         bot.run(TOKEN)
+
